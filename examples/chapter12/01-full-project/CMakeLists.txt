@@ -4,6 +4,8 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 
 include(NoInSourceBuilds)
 
+set(CMAKE_VERBOSE_MAKEFILE ON)
+
 add_subdirectory(src bin)
 add_subdirectory(test)
 
